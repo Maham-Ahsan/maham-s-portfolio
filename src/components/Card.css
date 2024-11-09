@@ -1,0 +1,46 @@
+.card-container {
+    border: 1px solid #ddda12; 
+    width: 300px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 200; 
+    background-color: rgb(174, 235, 174); 
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    margin-bottom: 0.5rem;
+  }
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+  }
+  
+  .tag {
+    background-color: #8f7c0f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  

@@ -1,0 +1,103 @@
+/* Hero section styling */
+#hero {
+    min-height: 100vh;
+    background-image: url('/images/pic.jpeg');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left 70px top 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container for hero content */
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(80vh - -280px);
+    padding-right: 10px;
+}
+
+/* Left side placeholder for larger screens */
+.hero-placeholder {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .hero-placeholder {
+        display: block;
+    }
+}
+
+/* Text container styling */
+.hero-text-container {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 640px) {
+    .hero-text-container {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-text-container {
+        margin-left: 50px;
+    }
+}
+
+/* Individual text elements with animations */
+.hero-name {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #00c853;
+    animation: zoom-in-down 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .hero-name {
+        font-size: 8rem;
+    }
+}
+
+.hero-title {
+    font-size: 2rem;
+    color: #66bb6a;
+    animation: zoom-in-down 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 6rem;
+    }
+}
+
+.hero-welcome {
+    font-size: 1.5rem;
+    color: #a5d6a7;
+    animation: zoom-in-down 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .hero-welcome {
+        font-size: 4rem;
+    }
+}
+
+/* Animation keyframes */
+@keyframes zoom-in-down {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}

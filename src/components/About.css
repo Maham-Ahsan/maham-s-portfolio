@@ -1,0 +1,41 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 8rem;
+    padding: 1.5rem;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    text-align: center;
+    color: #38a169; 
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-description {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #dfd5d5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .profile-image {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-footer {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #e9dfdf;
+    margin-top: 1.5rem;
+  }
+  

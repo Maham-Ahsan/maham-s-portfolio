@@ -1,0 +1,154 @@
+.contact-section {
+    padding-top: 8rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.25rem;
+  }
+  
+  .title-container {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .body {
+    color: #333;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .map-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .map-container {
+    flex: 2;
+    background-color: #d1d5db;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+    gap: 1rem;
+  }
+  
+  .info-section {
+    flex: 1;
+  }
+  
+  .info-title {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #1f2937;
+    letter-spacing: 0.05rem;
+  }
+  
+  .info-text {
+    color: #6b46c1;
+  }
+  
+  .info-link {
+    color: #f56565;
+    text-decoration: none;
+  }
+  
+  .form-container {
+    flex: 1;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-description {
+    color: #4a5568;
+    margin-bottom: 1.25rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: 0.875rem;
+    color: #4a5568;
+    margin-bottom: 0.25rem;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    color: #2d3748;
+  }
+  
+  .input:focus, .textarea:focus {
+    border-color: #5a67d8;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(90, 103, 216, 0.25);
+  }
+  
+  .textarea {
+    resize: none;
+    height: 8rem;
+  }
+  
+  .submit-button {
+    background-color: #f56565;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #5a67d8;
+  }
+  
+  .form-footer {
+    font-size: 0.75rem;
+    color: #a0aec0;
+    margin-top: 1rem;
+  }
+  

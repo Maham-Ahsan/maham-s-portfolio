@@ -1,0 +1,54 @@
+/* Container styling for the Skills section */
+.skills-container {
+    padding-top: 2rem;
+    color: #1a1a1a; 
+  }
+  
+  /* Grid layout */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Skills text and title styling */
+  .skills-text {
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .skills-description {
+    margin-top: 0.5rem;
+    color: #3fbf3f; 
+  }
+  
+  /* Skills list styling */
+  .skills-subtitle {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .skills-items {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #3fbf3f;
+  }
+  
+  .skills-items li {
+    padding-top: 0.5rem;
+    color: #3fbf3f; 
+  }
+  
